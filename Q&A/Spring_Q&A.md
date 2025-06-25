@@ -28,6 +28,8 @@
 - Configuration 설정의 편리함
   - XML로 관리하던 설정들을 [application.properties/yml로](http://application.properties/yml로) 쉽게 할 수 있다.
   - AutoConfiguration기능을 제공하여 애플리케이션 구동에 필요한 빈들을 자동으로 등록해준다. (`@SpringBootApplication` 어노테이션을 메인 클래스에 붙이면 빈 등록이 자동화된다.)
+  - Spring은 웹 애플리케이션을 만들기 위한 핵심 프레임워크이고, 설정이 복잡하고 명시적입니다.
+반면 Spring Boot는 이 Spring을 더 쉽게 쓰기 위한 확장 프레임워크로, 내장 톰캣, 자동 설정, starter 패키지 덕분에 빠르게 실행하고 배포할 수 있습니다.
 
 [[Spring] Spring과 Spring Boot의 차이는 무엇일까?](https://seongwon.dev/Spring/20220628-Spring-vs-SpringBoot/)
 
