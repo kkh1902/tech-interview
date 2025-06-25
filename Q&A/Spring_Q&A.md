@@ -118,7 +118,10 @@ IoC의 장점
 
 스프링을 사용하다보면 DI/IoC에 의해 스프링에게 객체의 생명주기를 맡기게 된다. 이때 스프링은 IoC를 위해 스프링 컨테이너를 만들고 생성한 객체들을 컨테이너에서 관리하는데 해당 객체들을 Bean이라고 한다.
 
-스프링이 빈을 등록하고 관리하는 방법은 xml, Annotation-based configuration, Java-based configuration 방법이 있다.
+Bean은 Spring이 관리하는 객체로, 필요한 곳에 자동으로 주입되고, 객체 생명주기를 프레임워크가 대신 관리해줍니다.
+
+Spring은 어노테이션, Java Config, XML 3가지 방식으로 Bean을 등록할 수 있고, 등록된 Bean의 생성부터 소멸까지 생명주기를 관리합니다.
+
 
 [[Spring] Bean이란 무엇일까?](https://seongwon.dev/Spring/20220616-%EC%8A%A4%ED%94%84%EB%A7%81-Bean/)
 
